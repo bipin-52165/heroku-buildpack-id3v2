@@ -19,5 +19,5 @@ curl -L --silent $DOWNLOAD_URL | tar xz
 echo "exporting PATH and LIBRARY_PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/id3v2.sh"
 mkdir -p $(dirname $PROFILE_PATH)
-echo 'export PATH="$PATH:vendor/id3v2/bin"' >> $PROFILE_PATH
-echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:vendor/id3v2/bin"' >> $PROFILE_PATH
+echo 'export PATH="$PATH:vendor/id3v2/usr/bin"' >> $PROFILE_PATH
+echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:vendor/id3v2/usr/bin"' >> $PROFILE_PATH
