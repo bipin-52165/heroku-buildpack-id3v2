@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# this pack is valid for all apps
+echo "id3v2"
+exit 0
